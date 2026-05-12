@@ -69,4 +69,3 @@ python manage.py runserver 5001
 ## Resume Summary
 
 Built a Django-based interview tracking and candidate management system to manage candidate details, interview rounds, status updates, feedback, and hiring pipeline analytics.
-
