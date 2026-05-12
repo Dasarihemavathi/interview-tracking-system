@@ -53,6 +53,20 @@ Open:
 http://127.0.0.1:5001
 ```
 
+## Screenshots
+
+### Dashboard and Candidate Pipeline
+
+![Dashboard and Candidate Pipeline](screenshots/dashboard-and-pipeline.png)
+
+### Add Candidate Form
+
+![Add Candidate Form](screenshots/add-candidate-form.png)
+
+### Candidate Feedback
+
+![Candidate Feedback](screenshots/candidate-feedback.png)
+
 ## MySQL Setup
 
 Set these environment variables before running migrations:
