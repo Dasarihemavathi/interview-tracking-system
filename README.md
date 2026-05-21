@@ -83,3 +83,26 @@ python manage.py runserver 5001
 ## Resume Summary
 
 Built a Django-based interview tracking and candidate management system to manage candidate details, interview rounds, status updates, feedback, and hiring pipeline analytics.
+
+## Deployment
+
+This project includes Render deployment files:
+
+- `build.sh`
+- `Procfile`
+- `render.yaml`
+
+Render settings:
+
+```text
+Build Command: ./build.sh
+Start Command: gunicorn interview_tracker.wsgi:application
+```
+
+Environment variables:
+
+```text
+DJANGO_DEBUG=false
+DJANGO_SECRET_KEY=generate a secure value
+DJANGO_ALLOWED_HOSTS=interview-tracking-system.onrender.com,.onrender.com,localhost,127.0.0.1
+```

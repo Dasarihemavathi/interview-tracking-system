@@ -1,2 +1,4 @@
 Django==6.0.2
-mysqlclient==2.2.7
+gunicorn==23.0.0
+whitenoise==6.8.2
+PyMySQL==1.1.1

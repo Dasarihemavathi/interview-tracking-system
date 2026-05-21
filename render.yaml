@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: interview-tracking-system
+    runtime: python
+    buildCommand: ./build.sh
+    startCommand: gunicorn interview_tracker.wsgi:application
+    envVars:
+      - key: DJANGO_DEBUG
+        value: "false"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_ALLOWED_HOSTS
+        value: "interview-tracking-system.onrender.com,.onrender.com,localhost,127.0.0.1"
