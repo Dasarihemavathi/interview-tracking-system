@@ -2,7 +2,7 @@ services:
   - type: web
     name: hemavathi-interview-tracking-system
     runtime: python
-    buildCommand: ./build.sh
+    buildCommand: bash build.sh
     startCommand: gunicorn interview_tracker.wsgi:application
     envVars:
       - key: DJANGO_DEBUG

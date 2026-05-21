@@ -95,7 +95,7 @@ This project includes Render deployment files:
 Render settings:
 
 ```text
-Build Command: ./build.sh
+Build Command: bash build.sh
 Start Command: gunicorn interview_tracker.wsgi:application
 ```
 
